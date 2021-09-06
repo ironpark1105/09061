@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // //참일때 실행문
+        // var num = 0;
+        // while(num < 100){
+        // document.write(" " + num + " ");
+        // num++;
+        // }
+
+        // for(var num =0; num < 10; num++){
+        //     document.write("hello")
+        // }
+
+
+        //break 중간에 중단하고 싶을 때
+        for(let i = 0; i < 10 ; i++){
+            if(i == 3) break;
+            document.write("i =", i)
+        }
+
+
+        //건너뜀
+        for(let i = 0; i < 10 ; i++){
+            if(i == 3) continue;
+            document.write(`<div style = "color:red;">i = ${i} </div>`);
+        }
+        let n =4;
+        if(n % 2 == 0) {
+            document.write("짝수")
+        }else{
+            document.write("홀수")
+        }
+
+
+        for(var i = 1; i <= 10; i++){
+            if(i % 2 == 0){
+            document.write("<br>" + i);
+        }
+    }
+
+
+
+
+
+        for(var h =1; h <= 100; h++){
+            if(h % 2 == 1){
+                document.write("<br>" + h)
+            }
+        }
+
+
+    </script>
+</body>
+</html>
